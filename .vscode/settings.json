@@ -2,5 +2,10 @@
     "[plaintext]": {
         "editor.unicodeHighlight.ambiguousCharacters": true
     },
-    "editor.unicodeHighlight.ambiguousCharacters": true
+    "editor.unicodeHighlight.ambiguousCharacters": true,
+    "editor.unicodeHighlight.allowedCharacters": {
+        "'": true,
+        "U+2019": true,
+        "U+0060": true
+    }
 }
