@@ -113,7 +113,7 @@ const SentenceBox = ({
   const menuEnabled = !isFocusedMode || status === "finished";
 
   const sentences = useMemo(() => {
-    return sentencesDict.map((e) => e.val);
+    return sentencesDict.map((e) => e && e.val); // Add a null/undefined check for e
   }, [sentencesDict]);
 
   // set up currSentenceIndex
