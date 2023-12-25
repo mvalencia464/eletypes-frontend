@@ -1,6 +1,10 @@
 {
     "[plaintext]": {
         "editor.unicodeHighlight.ambiguousCharacters": true
+<<<<<<< HEAD
     },
     "editor.unicodeHighlight.ambiguousCharacters": true
+=======
+    }
+>>>>>>> 0130b8b9975f3a0d4e302aa7193c7ef3a09472c2
 }
